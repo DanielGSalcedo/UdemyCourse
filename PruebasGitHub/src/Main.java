@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //this si the develop version
+        //this is the main v.0.2
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Hey sup?, what's your name?");
