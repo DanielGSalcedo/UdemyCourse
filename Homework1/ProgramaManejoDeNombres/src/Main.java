@@ -1,18 +1,17 @@
 import java.util.Scanner;
-
+//this is main v.1.0
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
-        System.out.println("ingrese el primer nombre");
-        String name1 = scan.nextLine();
-        System.out.println("ingrese el segundo nombre");
-        String name2 = scan.nextLine();
-        System.out.println("ingrese el terccer nombre");
-        String name3 = scan.nextLine();
-        
-        System.out.println((name1.toUpperCase().charAt(1))+"."+name1.substring(name1.length()-2)+"_"
-                +(name2.toUpperCase().charAt(1))+"."+name2.substring(name2.length()-2)+"_"+(name3.toUpperCase().charAt(1))+"."
-                +name3.substring(name3.length()-2));
+        StringBuilder result = new StringBuilder();
+        String name;
+        for (int i = 1; i <= 3; i++) {
+            System.out.println("ingrese el nombre numero ".concat(String.valueOf(i)));
+            name = scan.nextLine();
+            String substring = name.substring(name.length() - 2);
+            result.append((i != 3) ? ((name.toUpperCase().charAt(1)) + "." + substring + "_") : "");
+            result.append((i == 3) ? ((name.toUpperCase().charAt(1)) + "." + substring) : "");
+        }
+        System.out.println(result);
     }
 }
