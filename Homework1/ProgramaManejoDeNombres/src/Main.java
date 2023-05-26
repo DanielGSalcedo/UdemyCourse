@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        //this is dev v.0.1
 
         System.out.println("ingrese el primer nombre");
         String name1 = scan.nextLine();
