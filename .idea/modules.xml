@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Homework1/Homework1.iml" filepath="$PROJECT_DIR$/Homework1/Homework1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+<<<<<<< Updated upstream
       <module fileurl="file://$PROJECT_DIR$/.idea/UdemyCourse.iml" filepath="$PROJECT_DIR$/.idea/UdemyCourse.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/UdemyCurse.iml" filepath="$PROJECT_DIR$/.idea/UdemyCurse.iml" />
+>>>>>>> Stashed changes
     </modules>
   </component>
 </project>
